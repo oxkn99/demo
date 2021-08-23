@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - MapperTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>MapperTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.docker.demo.persistence.html">com.docker.demo.persistence</a> &gt; MapperTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">2</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.384s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testGetUser()</td>
+<td class="success">0.361s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">tsetGetBoard()</td>
+<td class="success">0.023s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2021-08-20 17:31:18.103  INFO 12232 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.docker.demo.persistence.MapperTest], using SpringBootContextLoader
+2021-08-20 17:31:18.104  INFO 12232 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.docker.demo.persistence.MapperTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-08-20 17:31:18.105  INFO 12232 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.docker.demo.persistence.MapperTest]: MapperTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-08-20 17:31:18.115  INFO 12232 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.docker.demo.DemoApplication for test class com.docker.demo.persistence.MapperTest
+2021-08-20 17:31:18.117  INFO 12232 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-08-20 17:31:18.118  INFO 12232 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@58d034ae, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6337fc1b, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@21ed23fe, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3f05d613, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@66a9e019, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3a220ff3, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7298399a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@633cdc94, org.springframework.test.context.event.EventPublishingTestExecutionListener@4a3c41c2, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@60cb82e1, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@53ac238b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@56719d16, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7eebe44b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@428bbdfd, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@70896e5c]
+2021-08-20 17:31:18.145  INFO 12232 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-20 17:31:18.425  INFO 12232 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-20 17:31:18.479  INFO 12232 --- [    Test worker] com.docker.demo.persistence.MapperTest   : ###result: [UserVO{id='id1', password='pw1', name='김영일'}, UserVO{id='id2', password='pw2', name='김영이'}, UserVO{id='id3', password='pw3', name='김영삼'}, UserVO{id='id4', password='pw4', name='김영사'}, UserVO{id='id5', password='pw5', name='김영오'}, UserVO{id='id6', password='pw6', name='김영육'}, UserVO{id='id7', password='pw7', name='김영칠'}, UserVO{id='id8', password='pw8', name='김영팔'}, UserVO{id='id9', password='pw9', name='김영구'}]
+2021-08-20 17:31:18.503  INFO 12232 --- [    Test worker] com.docker.demo.persistence.MapperTest   : ###result: [boardVO{id=1, pid=null, deleteYn=N, title='첫글', userId='id1', content='내용', regDt='210817050835', modDt='210817050835'}, boardVO{id=2, pid=null, deleteYn=N, title='제목1', userId='id1', content='내용', regDt='210817050805', modDt='210817050805'}, boardVO{id=3, pid=null, deleteYn=N, title='제목2', userId='id1', content='내용', regDt='210817050811', modDt='210817050811'}, boardVO{id=4, pid=2, deleteYn=N, title='덧글1', userId='id1', content='내용', regDt='210817050825', modDt='210817050825'}, boardVO{id=5, pid=2, deleteYn=N, title='덧글2', userId='id1', content='내용', regDt='210817050838', modDt='210817050838'}, boardVO{id=6, pid=5, deleteYn=N, title='덧글2-1', userId='id1', content='내용', regDt='210817050801', modDt='210817050801'}, boardVO{id=7, pid=5, deleteYn=N, title='덧글2-2', userId='id1', content='내용', regDt='210817050818', modDt='210817050818'}, boardVO{id=8, pid=5, deleteYn=N, title='덧글2-3', userId='id1', content='내용', regDt='210817050827', modDt='210817050827'}, boardVO{id=9, pid=null, deleteYn=N, title='제목3', userId='id1', content='내용', regDt='210817050844', modDt='210817050844'}, boardVO{id=10, pid=null, deleteYn=N, title='제목1', userId='id1', content='내용', regDt='210820040803', modDt='210820040803'}, boardVO{id=11, pid=null, deleteYn=N, title='제목2', userId='id1', content='내용', regDt='210820040810', modDt='210820040810'}]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.1.1</a> at 2021. 8. 20. 오후 5:31:18</p>
+</div>
+</div>
+</body>
+</html>
